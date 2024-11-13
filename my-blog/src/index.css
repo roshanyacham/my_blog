@@ -1,0 +1,94 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+  color: #333;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+/* Blog Header styles */
+.blog-header {
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-header h1 {
+  margin: 0;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+.blog-header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.blog-header nav a {
+  text-decoration: none;
+  color: #666;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.blog-header nav a:hover {
+  color: #007bff;
+  transform: scale(1.05);
+}
+
+/* Dark mode adjustments for header */
+.dark-mode .blog-header {
+  background-color: #333;
+  border-bottom-color: #444;
+}
+
+.dark-mode .blog-header h1 {
+  color: #e0e0e0;
+}
+
+/* Dark mode toggle button */
+.dark-mode-toggle {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive header styling */
+@media (max-width: 600px) {
+  .blog-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .blog-header nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .blog-header h1 {
+    font-size: 1.5rem;
+  }
+}
