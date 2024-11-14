@@ -52,5 +52,8 @@ Used CSS Modules to scope styles to components and avoid conflicts. This approac
 - Dark mode support (optional, can be implemented with a toggle in CSS).
 
 ## Screenshots
-- **Desktop View**: ![Desktop View Screenshot](screenshot-desktop.png)
-- **Mobile View**: ![Mobile View Screenshot](screenshot-mobile.png)
+- **Desktop View**: ![Desktop View Screenshot](screenshot3.png)
+- **Mobile View**: ![Mobile View Screenshot](screenshot4.png)
+
+
+
