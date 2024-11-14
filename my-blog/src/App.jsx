@@ -1,14 +1,17 @@
 import Header from './components/Header';
+import BlogList from './components/BlogList/BlogList';
+import { posts } from './data/posts';
+import './App.css';
 import DarkModeToggle from './components/DarkModeToggle';
+
 
 function App() {
   return (
     <div className="app">
       <DarkModeToggle />
       <Header />
-      <main>
-        <h2>Welcome to my blog!</h2>
-        <p>This is my first React component with dark mode.</p>
+      <main className="main-content">
+        <BlogList posts={posts} />
       </main>
     </div>
   );
