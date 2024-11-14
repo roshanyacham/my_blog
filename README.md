@@ -35,3 +35,22 @@ Explain your project structure here:
 ![Screenshot of running application](screenshot1.png)
 ![Screenshot of running application](screenshot2.png)
 
+
+
+
+## Components Structure
+- **BlogPost**: Displays individual blog post content.
+- **BlogList**: Container for rendering a list of blog posts.
+- **Header**: Displays site title and navigation links.
+
+## Styling Approach
+Used CSS Modules to scope styles to components and avoid conflicts. This approach makes the component styling modular and maintainable.
+
+## New Features
+- Blog post display with title, author, date, and content.
+- Responsive design for mobile and desktop views.
+- Dark mode support (optional, can be implemented with a toggle in CSS).
+
+## Screenshots
+- **Desktop View**: ![Desktop View Screenshot](screenshot-desktop.png)
+- **Mobile View**: ![Mobile View Screenshot](screenshot-mobile.png)
