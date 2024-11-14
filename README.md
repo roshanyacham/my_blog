@@ -36,7 +36,7 @@ Explain your project structure here:
 ![Screenshot of running application](screenshot2.png)
 
 
-
+**Assignment 2**  
 
 ## Components Structure
 - **BlogPost**: Displays individual blog post content.
@@ -57,3 +57,30 @@ Used CSS Modules to scope styles to components and avoid conflicts. This approac
 
 
 
+### Assignment Summaries
+
+**Assignment 3**  
+Assignment 3 remains unchanged from Assignment 2.
+
+**Assignment 4**  
+After adding all required files and updating `BlogList.jsx`, the page displays as blank.
+
+**Assignment 5**  
+After adding and updating all specified files, the page shows as blank.
+
+**Assignment 6**  
+All required hook files have been successfully created.
+
+**Assignment 7**  
+All necessary context files have been successfully created.
+
+**Assignment 8**  
+All specified files have been created, and the required modules have been imported.
+
+**Assignment 9**  
+An import resolution error occurs when attempting to use the `ErrorBoundary` component in `App.jsx`. The Vite development server reports that it cannot locate the component, leading to a failure in compiling and running the application.
+
+This issue suggests that Vite cannot resolve the `ErrorBoundary` component at the specified path in `App.jsx`. Possible causes include an incorrect path, a missing file extension, a case sensitivity mismatch, or caching issues in Vite.
+
+
+![Screenshot of running application](screenshot5.png)
