@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import LikeButton from '../LikeButton/LikeButton';
-import CommentSection from '../CommentSection/CommentSection';
+import CommentSection from '../commentSection/commentSection';
 import { calculateReadTime } from '../../utils/readTime';
 import './BlogPost.module.css';
 
